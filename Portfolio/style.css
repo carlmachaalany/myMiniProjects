@@ -1,0 +1,594 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+* {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+}
+
+/* INDEX */
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-brand {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+header nav ul a {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 16px;
+  color: #111;
+}
+
+header .header-cases {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0px 20px 0px 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+
+  header nav ul {
+    margin: 20px 0 20px 20px;
+    float: left;
+
+  }
+
+  header nav ul a {
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+
+  header .header-cases {
+    display: block;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 16px;
+    color: #111;
+    line-height: 38px;
+    border: 1px solid #111;
+    float: right;
+    margin-right: 40px;
+    padding: 0 20px;
+    margin-top: 30px;
+  }
+}
+
+/* MAIN */
+
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(clouds.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.index-banner h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-banner h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.index-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 100px;
+  color: #111;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px){
+
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .index-banner {
+    width: 100%;
+    height: 450px;;
+    background-image: url(clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+  }
+
+  .index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+  }
+
+  .index-links {
+    overflow: hidden;
+  }
+
+  .index-boxlink-square {
+    width: calc(25% - 20px) !important;
+  }
+
+  .index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+  }
+
+}
+
+/*CASES*/
+
+.cases-links {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cases-links h2{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+}
+
+.cases-links .wrapper div {
+  float: left;
+  width: 230px;
+  height: 230px;
+  margin: 20px 10px 0;
+  background-color: #e3e3e3;
+}
+
+.cases-links p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  padding-top: 40%;
+}
+
+.cases-contactme {
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #111;
+}
+
+.cases-contactme .contactme {
+  color: white;
+}
+
+.cases-contactme .contactme .CONTACTME {
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+.cases-contactme .contactme .contact-info {
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+/* CASE */
+
+.case-vid {
+  padding-bottom: 20px;
+}
+
+.case-vid h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  text-align: center;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+
+.case-vid video {
+  display: block;
+  position: relative;
+  width: 80%;
+  padding-left: 85px;
+}
+
+.case-vid article h3 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  line-height: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.case-vid article p {
+  font-family: 'Architects Daughter', cursive;
+  font-size:16px;
+  font-weight: 500;
+  color: #111;
+  line-height: 20px;
+  column-count: 3;
+  column-gap: 20px;
+}
+
+
+
+
+/* Footer */
+
+footer {
+  background-color: #111;
+  width: calc(100% - 80px);
+  height: 50px;
+  padding: 40px 40px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+footer ul  {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer ul li a {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 14px;
+  color: #fff;
+}
+
+.Latest {
+  text-decoration: underline;
+}
+
+.footer-latest {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+}
+
+.footer-links-main li a:hover {
+  line-height: 17px;
+  text-decoration: underline;
+}
+
+/*
+@media only screen and (min-width: 768px) {
+  .img-bannner {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px;
+  }
+
+  .img-me {
+    padding-top: 30px;
+
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .img-bannner {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .img-info {
+    width:
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px;
+  }
+
+  .img-me {
+    padding-top: 30px;
+
+  }
+}
+
+*/
+
+/* Video Embeding:
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+}
+
+iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+*/
+
+/*
+.wrapper {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  background-color: red;
+}
+
+.header-one {
+  background-color: white;
+}
+
+
+.video-wrapper{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+}
+
+.video-wrapper iframe{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.img-eye {
+  width: 100px;
+  height: 200px;
+  background-image: url(clouds.jpg);
+  background-size:200%;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.img-eye:hover {
+  background-size:100%;
+}
+
+
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+}
+
+ul {
+  margin-left: 60px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+}
+
+ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+ul li a:hover{
+  color: red;
+
+}
+*/

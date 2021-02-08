@@ -1,0 +1,31 @@
+.solo-dummy a {
+  float: left;
+  top: 5px;
+  color: #FEFBFB;
+  padding-left: 10px;
+  transform: translate(10px, -12px);
+}
+
+.solo-dummy p {
+  display: block;
+  float: left;
+  width: 95%;
+  height: 35px;
+  font-size: 10px;
+  transform: translate(0, -5px);
+}
+
+.solo-dummy h2 {
+  float: right;
+  font-size: 11px;
+  transform: translate(-3px, -60px);
+}
+
+.solo-dummy .startchallengesolo {
+  width: 240px;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid green;
+  transform: translate(-1px, -8px);
+  background-color: green;
+}
